@@ -59,11 +59,15 @@ When you insert a second SD card to the Raspberry Pi, you can use the command
 (it may or may not be `/dev/mmcblk0`, which is used as an example in the
 'Usage' section below).
 
-## Activate python 3
+## Updates on Raspberry Pi
+
+    $sudo apt-get update
+    $sudo apt-get upgrade
+
+## Upgarde Activate python 3
 
     $python3 -venv ~/ENV3
     $ source ~/ENV3/bin/activate
-
 
 ## Instalation
 
